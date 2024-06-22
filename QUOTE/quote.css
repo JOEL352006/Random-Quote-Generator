@@ -1,0 +1,272 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #dfe6e9; /* Default light blue background color */
+    transition: background-color 0.5s ease; /* Smooth transition for background color change */
+}
+
+#quote-container {
+    text-align: center;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 90%;
+    animation: fadeIn 1s ease-in-out;
+    margin-top: 2rem;
+}
+
+#quote {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+    line-height: 1.5;
+    position: relative;
+}
+
+#quote:before {
+    content: '"';
+    font-size: 2.5rem; /* Adjust the size of the quotation mark */
+    position: absolute;
+    top: -0.5rem; /* Adjust vertical positioning */
+    left: -1rem; /* Adjust horizontal positioning */
+}
+
+#author {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 2rem;
+    font-style: italic;
+}
+
+#new-quote {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+#new-quote:hover {
+    background-color: #0056b3;
+}
+
+/* Additional background color classes */
+.background-aliceblue {
+    background-color: #F0F8FF; /* AliceBlue */
+}
+
+.background-antiquewhite {
+    background-color: #FAEBD7; /* AntiqueWhite */
+}
+
+.background-aqua {
+    background-color: #00FFFF; /* Aqua */
+}
+
+.background-aquamarine {
+    background-color: #7FFFD4; /* Aquamarine */
+}
+
+.background-azure {
+    background-color: #F0FFFF; /* Azure */
+}
+
+.background-beige {
+    background-color: #F5F5DC; /* Beige */
+}
+
+.background-bisque {
+    background-color: #FFE4C4; /* Bisque */
+}
+
+.background-black {
+    background-color: #000000; /* Black */
+}
+
+.background-blanchedalmond {
+    background-color: #FFEBCD; /* BlanchedAlmond */
+}
+
+.background-blue {
+    background-color: #0000FF; /* Blue */
+}
+
+.background-blueviolet {
+    background-color: #8A2BE2; /* BlueViolet */
+}
+
+.background-brown {
+    background-color: #A52A2A; /* Brown */
+}
+
+.background-burlywood {
+    background-color: #DEB887; /* BurlyWood */
+}
+
+.background-cadetblue {
+    background-color: #5F9EA0; /* CadetBlue */
+}
+
+.background-chartreuse {
+    background-color: #7FFF00; /* Chartreuse */
+}
+
+.background-chocolate {
+    background-color: #D2691E; /* Chocolate */
+}
+
+.background-coral {
+    background-color: #FF7F50; /* Coral */
+}
+
+.background-cornflowerblue {
+    background-color: #6495ED; /* CornflowerBlue */
+}
+
+.background-cornsilk {
+    background-color: #FFF8DC; /* Cornsilk */
+}
+
+.background-crimson {
+    background-color: #DC143C; /* Crimson */
+}
+
+.background-cyan {
+    background-color: #00FFFF; /* Cyan */
+}
+
+.background-darkblue {
+    background-color: #00008B; /* DarkBlue */
+}
+
+.background-darkcyan {
+    background-color: #008B8B; /* DarkCyan */
+}
+
+.background-darkgoldenrod {
+    background-color: #B8860B; /* DarkGoldenRod */
+}
+
+.background-darkgray {
+    background-color: #A9A9A9; /* DarkGray */
+}
+
+.background-darkgreen {
+    background-color: #006400; /* DarkGreen */
+}
+
+.background-darkkhaki {
+    background-color: #BDB76B; /* DarkKhaki */
+}
+
+.background-darkmagenta {
+    background-color: #8B008B; /* DarkMagenta */
+}
+
+.background-darkolivegreen {
+    background-color: #556B2F; /* DarkOliveGreen */
+}
+
+.background-darkorange {
+    background-color: #FF8C00; /* DarkOrange */
+}
+
+.background-darkorchid {
+    background-color: #9932CC; /* DarkOrchid */
+}
+
+.background-darkred {
+    background-color: #8B0000; /* DarkRed */
+}
+
+.background-darksalmon {
+    background-color: #E9967A; /* DarkSalmon */
+}
+
+.background-darkseagreen {
+    background-color: #8FBC8F; /* DarkSeaGreen */
+}
+
+.background-darkslateblue {
+    background-color: #483D8B; /* DarkSlateBlue */
+}
+
+.background-darkslategray {
+    background-color: #2F4F4F; /* DarkSlateGray */
+}
+
+.background-darkturquoise {
+    background-color: #00CED1; /* DarkTurquoise */
+}
+
+.background-darkviolet {
+    background-color: #9400D3; /* DarkViolet */
+}
+
+.background-deeppink {
+    background-color: #FF1493; /* DeepPink */
+}
+
+.background-deepskyblue {
+    background-color: #00BFFF; /* DeepSkyBlue */
+}
+
+.background-dimgray {
+    background-color: #696969; /* DimGray */
+}
+
+.background-dodgerblue {
+    background-color: #1E90FF; /* DodgerBlue */
+}
+
+.background-firebrick {
+    background-color: #B22222; /* FireBrick */
+}
+
+.background-floralwhite {
+    background-color: #FFFAF0; /* FloralWhite */
+}
+
+.background-forestgreen {
+    background-color: #228B22; /* ForestGreen */
+}
+
+.background-fuchsia {
+    background-color: #FF00FF; /* Fuchsia */
+}
+
+.background-gainsboro {
+    background-color: #DCDCDC; /* Gainsboro */
+}
+
+.background-ghostwhite {
+    background-color: #F8F8FF; /* GhostWhite */
+}
+
+.background-gold {
+    background-color: #FFD700; /* Gold */
+}
+
+.background-goldenrod {
+    background-color: #DAA520; /* GoldenRod */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
